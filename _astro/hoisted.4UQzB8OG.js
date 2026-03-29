@@ -1,0 +1,1 @@
+import"./hoisted.Bq2XmHEt.js";document.querySelectorAll(".toggle-btn").forEach(e=>{e.addEventListener("click",()=>{const t=document.getElementById(e.dataset.target);if(!t)return;const d=t.hidden;t.hidden=!d;const i=e.querySelector(".show-label"),l=e.querySelector(".hide-label");i&&(i.hidden=d),l&&(l.hidden=!d)})});
